@@ -1,0 +1,17 @@
+# Weight Calculator:
+
+Weight = float(input("Enter your weight: "))
+Unit = input("Your weight is in (K)gs or (L)bs? ")
+
+if Unit.upper() == 'K':
+    converted = Weight / 0.453
+    print("Weight in Lbs: " + str(converted))
+else:
+    converted = Weight * 0.453
+
+
+
+Output:
+Enter your weight: 75
+Your weight is in (K)gs or (L)bs? k
+Weight in Lbs: 165.56291390728475
